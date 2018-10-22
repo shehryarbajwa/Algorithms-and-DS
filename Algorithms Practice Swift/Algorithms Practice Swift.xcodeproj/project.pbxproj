@@ -7,13 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E61AB767217E6A5700C9EDA6 /* Count Inversions with MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61AB766217E6A5700C9EDA6 /* Count Inversions with MergeSort.swift */; };
 		E630A46F217BDE8200247F95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630A46E217BDE8200247F95 /* AppDelegate.swift */; };
 		E630A471217BDE8200247F95 /* Karatsuba Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630A470217BDE8200247F95 /* Karatsuba Multiplication.swift */; };
-		E630A474217BDE8200247F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E630A472217BDE8200247F95 /* Main.storyboard */; };
-		E630A476217BDE8400247F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E630A475217BDE8400247F95 /* Assets.xcassets */; };
-		E630A479217BDE8400247F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E630A477217BDE8400247F95 /* LaunchScreen.storyboard */; };
-		E630A484217BDE8400247F95 /* Algorithms_Practice_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630A483217BDE8400247F95 /* Algorithms_Practice_SwiftTests.swift */; };
-		E630A48F217BDE8400247F95 /* Algorithms_Practice_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630A48E217BDE8400247F95 /* Algorithms_Practice_SwiftUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E630A46B217BDE8200247F95 /* Algorithms Practice Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithms Practice Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61AB766217E6A5700C9EDA6 /* Count Inversions with MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Count Inversions with MergeSort.swift"; sourceTree = "<group>"; };
+		E630A46B217BDE8200247F95 /* Algorithms Practice Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Algorithms Practice Swift.app"; path = "/Users/shehryarbajwa/Algorithms-and-DataStructures/Algorithms Practice Swift/build/Debug-iphoneos/Algorithms Practice Swift.app"; sourceTree = "<absolute>"; };
 		E630A46E217BDE8200247F95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E630A470217BDE8200247F95 /* Karatsuba Multiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Karatsuba Multiplication.swift"; sourceTree = "<group>"; };
-		E630A473217BDE8200247F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E630A475217BDE8400247F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E630A478217BDE8400247F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E630A47A217BDE8400247F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E630A47F217BDE8400247F95 /* Algorithms Practice SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithms Practice SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E630A483217BDE8400247F95 /* Algorithms_Practice_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms_Practice_SwiftTests.swift; sourceTree = "<group>"; };
-		E630A485217BDE8400247F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E630A48A217BDE8400247F95 /* Algorithms Practice SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithms Practice SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E630A48E217BDE8400247F95 /* Algorithms_Practice_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms_Practice_SwiftUITests.swift; sourceTree = "<group>"; };
-		E630A490217BDE8400247F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E630A47F217BDE8400247F95 /* Algorithms Practice SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Algorithms Practice SwiftTests.xctest"; path = "/Users/shehryarbajwa/Algorithms-and-DataStructures/Algorithms Practice Swift/build/Debug-iphoneos/Algorithms Practice SwiftTests.xctest"; sourceTree = "<absolute>"; };
+		E630A48A217BDE8400247F95 /* Algorithms Practice SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Algorithms Practice SwiftUITests.xctest"; path = "/Users/shehryarbajwa/Algorithms-and-DataStructures/Algorithms Practice Swift/build/Debug-iphoneos/Algorithms Practice SwiftUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,20 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				E630A46D217BDE8200247F95 /* Algorithms Practice Swift */,
-				E630A482217BDE8400247F95 /* Algorithms Practice SwiftTests */,
-				E630A48D217BDE8400247F95 /* Algorithms Practice SwiftUITests */,
-				E630A46C217BDE8200247F95 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		E630A46C217BDE8200247F95 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E630A46B217BDE8200247F95 /* Algorithms Practice Swift.app */,
-				E630A47F217BDE8400247F95 /* Algorithms Practice SwiftTests.xctest */,
-				E630A48A217BDE8400247F95 /* Algorithms Practice SwiftUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E630A46D217BDE8200247F95 /* Algorithms Practice Swift */ = {
@@ -99,30 +76,10 @@
 			children = (
 				E630A46E217BDE8200247F95 /* AppDelegate.swift */,
 				E630A470217BDE8200247F95 /* Karatsuba Multiplication.swift */,
-				E630A472217BDE8200247F95 /* Main.storyboard */,
-				E630A475217BDE8400247F95 /* Assets.xcassets */,
-				E630A477217BDE8400247F95 /* LaunchScreen.storyboard */,
+				E61AB766217E6A5700C9EDA6 /* Count Inversions with MergeSort.swift */,
 				E630A47A217BDE8400247F95 /* Info.plist */,
 			);
 			path = "Algorithms Practice Swift";
-			sourceTree = "<group>";
-		};
-		E630A482217BDE8400247F95 /* Algorithms Practice SwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				E630A483217BDE8400247F95 /* Algorithms_Practice_SwiftTests.swift */,
-				E630A485217BDE8400247F95 /* Info.plist */,
-			);
-			path = "Algorithms Practice SwiftTests";
-			sourceTree = "<group>";
-		};
-		E630A48D217BDE8400247F95 /* Algorithms Practice SwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E630A48E217BDE8400247F95 /* Algorithms_Practice_SwiftUITests.swift */,
-				E630A490217BDE8400247F95 /* Info.plist */,
-			);
-			path = "Algorithms Practice SwiftUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +170,7 @@
 				Base,
 			);
 			mainGroup = E630A462217BDE8200247F95;
-			productRefGroup = E630A46C217BDE8200247F95 /* Products */;
+			productRefGroup = E630A462217BDE8200247F95;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -229,9 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E630A479217BDE8400247F95 /* LaunchScreen.storyboard in Resources */,
-				E630A476217BDE8400247F95 /* Assets.xcassets in Resources */,
-				E630A474217BDE8200247F95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +212,7 @@
 			files = (
 				E630A471217BDE8200247F95 /* Karatsuba Multiplication.swift in Sources */,
 				E630A46F217BDE8200247F95 /* AppDelegate.swift in Sources */,
+				E61AB767217E6A5700C9EDA6 /* Count Inversions with MergeSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +220,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E630A484217BDE8400247F95 /* Algorithms_Practice_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +227,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E630A48F217BDE8400247F95 /* Algorithms_Practice_SwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +244,6 @@
 			targetProxy = E630A48B217BDE8400247F95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E630A472217BDE8200247F95 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E630A473217BDE8200247F95 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E630A477217BDE8400247F95 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E630A478217BDE8400247F95 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E630A491217BDE8400247F95 /* Debug */ = {
