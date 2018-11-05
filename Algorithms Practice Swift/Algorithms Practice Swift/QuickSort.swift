@@ -20,7 +20,7 @@ func quickSort <T : Comparable > (_ a: [T]) -> [T]{
     let equal = a.filter { $0 == pivot}
     
     
-    return quickSort(less) + quickSort(great)
+    return quickSort(less) + equal + quickSort(great)
     
 }
 
