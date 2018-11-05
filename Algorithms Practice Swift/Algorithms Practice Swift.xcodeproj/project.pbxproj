@@ -10,6 +10,7 @@
 		E61AB767217E6A5700C9EDA6 /* Count Inversions with MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61AB766217E6A5700C9EDA6 /* Count Inversions with MergeSort.swift */; };
 		E630A46F217BDE8200247F95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630A46E217BDE8200247F95 /* AppDelegate.swift */; };
 		E630A471217BDE8200247F95 /* Karatsuba Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630A470217BDE8200247F95 /* Karatsuba Multiplication.swift */; };
+		E6402C182190E5E900730405 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6402C172190E5E800730405 /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +32,13 @@
 
 /* Begin PBXFileReference section */
 		E61AB766217E6A5700C9EDA6 /* Count Inversions with MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Count Inversions with MergeSort.swift"; sourceTree = "<group>"; };
-		E630A46B217BDE8200247F95 /* Algorithms Practice Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Algorithms Practice Swift.app"; path = "/Users/shehryarbajwa/Algorithms-and-DataStructures/Algorithms Practice Swift/build/Debug-iphoneos/Algorithms Practice Swift.app"; sourceTree = "<absolute>"; };
 		E630A46E217BDE8200247F95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E630A470217BDE8200247F95 /* Karatsuba Multiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Karatsuba Multiplication.swift"; sourceTree = "<group>"; };
 		E630A47A217BDE8400247F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E630A47F217BDE8400247F95 /* Algorithms Practice SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Algorithms Practice SwiftTests.xctest"; path = "/Users/shehryarbajwa/Algorithms-and-DataStructures/Algorithms Practice Swift/build/Debug-iphoneos/Algorithms Practice SwiftTests.xctest"; sourceTree = "<absolute>"; };
-		E630A48A217BDE8400247F95 /* Algorithms Practice SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Algorithms Practice SwiftUITests.xctest"; path = "/Users/shehryarbajwa/Algorithms-and-DataStructures/Algorithms Practice Swift/build/Debug-iphoneos/Algorithms Practice SwiftUITests.xctest"; sourceTree = "<absolute>"; };
+		E6402C142190E5D600730405 /* Algorithms Practice Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithms Practice Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6402C152190E5D600730405 /* Algorithms Practice SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithms Practice SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6402C162190E5D600730405 /* Algorithms Practice SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithms Practice SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6402C172190E5E800730405 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				E630A46D217BDE8200247F95 /* Algorithms Practice Swift */,
+				E6402C142190E5D600730405 /* Algorithms Practice Swift.app */,
+				E6402C152190E5D600730405 /* Algorithms Practice SwiftTests.xctest */,
+				E6402C162190E5D600730405 /* Algorithms Practice SwiftUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +82,7 @@
 				E630A46E217BDE8200247F95 /* AppDelegate.swift */,
 				E630A470217BDE8200247F95 /* Karatsuba Multiplication.swift */,
 				E61AB766217E6A5700C9EDA6 /* Count Inversions with MergeSort.swift */,
+				E6402C172190E5E800730405 /* QuickSort.swift */,
 				E630A47A217BDE8400247F95 /* Info.plist */,
 			);
 			path = "Algorithms Practice Swift";
@@ -99,7 +105,7 @@
 			);
 			name = "Algorithms Practice Swift";
 			productName = "Algorithms Practice Swift";
-			productReference = E630A46B217BDE8200247F95 /* Algorithms Practice Swift.app */;
+			productReference = E6402C142190E5D600730405 /* Algorithms Practice Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E630A47E217BDE8400247F95 /* Algorithms Practice SwiftTests */ = {
@@ -117,7 +123,7 @@
 			);
 			name = "Algorithms Practice SwiftTests";
 			productName = "Algorithms Practice SwiftTests";
-			productReference = E630A47F217BDE8400247F95 /* Algorithms Practice SwiftTests.xctest */;
+			productReference = E6402C152190E5D600730405 /* Algorithms Practice SwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E630A489217BDE8400247F95 /* Algorithms Practice SwiftUITests */ = {
@@ -135,7 +141,7 @@
 			);
 			name = "Algorithms Practice SwiftUITests";
 			productName = "Algorithms Practice SwiftUITests";
-			productReference = E630A48A217BDE8400247F95 /* Algorithms Practice SwiftUITests.xctest */;
+			productReference = E6402C162190E5D600730405 /* Algorithms Practice SwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,6 +219,7 @@
 				E630A471217BDE8200247F95 /* Karatsuba Multiplication.swift in Sources */,
 				E630A46F217BDE8200247F95 /* AppDelegate.swift in Sources */,
 				E61AB767217E6A5700C9EDA6 /* Count Inversions with MergeSort.swift in Sources */,
+				E6402C182190E5E900730405 /* QuickSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
