@@ -1,2 +1,2 @@
-# Algorithms-and-DataStructures
+# Algorithms-and-DS
 Practice 
